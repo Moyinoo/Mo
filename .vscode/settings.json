@@ -1,0 +1,33 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "local_tayture",
+      "database": "tayture",
+      "username": "root",
+      "password": ""
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Enabled",
+        "ssl": {}
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "tayture",
+      "username": "taytyfcj_david",
+      "database": "taytyfcj_test",
+      "password": "changePassword1234567890"
+    }
+  ]
+}
